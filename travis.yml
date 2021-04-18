@@ -3,7 +3,6 @@ dist: xenial
 
 language:
   - cpp
- - cpp
  
 before_install:
  - pip install --user cpp-coveralls
