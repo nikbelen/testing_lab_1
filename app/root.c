@@ -42,4 +42,6 @@ solve root(double A,double B,double C)
         solveres.s2=(-B-sqrt(D))/(2*A);
         return solveres;
     }
+    solveres.number_s=0;
+    return solveres;
 }
